@@ -13,8 +13,16 @@ This is a platform test with a full adder example.
 
 ## How to test
 
-Explain how to use your project
+Apply all 8 possible binary combinations (000 through 111) to the three inputs (A, B, and Cin) and observe the two outputs (Sum and Cout):
+
+0 active inputs (000): Sum = 0, Cout = 0
+
+1 active input (001, 010, 100): Sum = 1, Cout = 0
+
+2 active inputs (011, 101, 110): Sum = 0, Cout = 1
+
+3 active inputs (111): Sum = 1, Cout = 1
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+You need a DIP switch and two LEDs.
